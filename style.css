@@ -1,0 +1,61 @@
+﻿body {
+	background: #f8f8f8;
+}
+.menu {
+	font-family: "Times New Roman", Monotype Corsiva;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.menu li {
+	list-style-type: none;
+}
+.menu a {
+	color: rgb(121, 7, 121);
+}
+h2 {
+	color: black;
+	font-size: 18px;
+	font-weight: 400;
+	background:  #eaeaea;
+}
+.catalog {
+	color:#707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+p {
+	color:#484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+.cat {
+	color:#700762;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+	font-style: italic;
+	letter-spacing: 1px;
+	list-style-image: url("images/cat.png");
+}
+.contacts {
+	width: fit-content;
+}
+.contacts input {
+	width: 400px;
+	height: 20px;
+}
+.info {
+	color: rgb(77, 7, 77);
+	font-style: italic;
+	font-size: 15px;
+}
+.border {
+	color:#eaeaea;
+	border-style: double;
+	border-width: 30px;
+}

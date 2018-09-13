@@ -1,17 +1,33 @@
-﻿body {
-	background: #f8f8f8;
+﻿html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 .menu {
 	font-family: "Times New Roman", Monotype Corsiva;
 	font-style: italic;
 	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin: 0%;
+	padding-left: 750px;
+	padding-top: 20px;
 }
 
 .menu li {
 	list-style-type: none;
+
 }
 .menu a {
-	color: rgb(121, 7, 121);
+	color: rgb(255, 255, 255);
+}
+.container {
+	width: 80%;
+	margin: 0px auto;
+	background: #f8f8f8;
 }
 h2 {
 	color: black;
@@ -48,30 +64,49 @@ p {
 .contacts input {
 	width: 400px;
 	height: 20px;
-	color: rgb(114, 15, 114);
+	color: rgb(61, 55, 61);
 	font-style: italic;
 	font-size: 15px;
 	text-transform: capitalize;
 }
 .border {
-	color:#eaeaea;
+	color:#d64f56;
 	border-style: double;
 	border-width: 30px;
 }
 .menu a:hover {
-	color: rgb(231, 145, 94);
+	color: rgb(87, 53, 63);
 }
 .header {
 	position: relative;
 	z-index: 100;
 	font-size: 20pt;
 	font-weight: bold;
-  }
+	height: 100px;
+	background-image: url("images/fon.png");
+	background-size: 3500px;
+}
+.logo {
+	display: block;
+	float: left;
+	margin-right: 10px;
+	height: 50px;
+	left: 100px;
+	padding-top: 25px;
+	padding-left: 25px;
+}
 .footer {
-	text-align: center;
+	text-align: right;
+	background-image: url("images/fon.png");
+	background-size: 3500px;
+	height: 50px;
+	margin: 0px;
+	padding: 25px;
+	font-style: bold;
+	color: white;
 }
 .contacts input:focus {
-	background:  rgb(233, 185, 158);
+	background:  rgb(250, 179, 191);
 }
 table {
 	border: 1px solid #000;
@@ -88,7 +123,7 @@ th {
 	vertical-align: top;
 	text-align: center;
 	width: 80px;
-height: 30px
+	height: 30px
 }
 .catalog::first-letter {
 	font-size: 20pt;

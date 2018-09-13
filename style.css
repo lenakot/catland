@@ -48,14 +48,52 @@ p {
 .contacts input {
 	width: 400px;
 	height: 20px;
-}
-.info {
-	color: rgb(77, 7, 77);
+	color: rgb(114, 15, 114);
 	font-style: italic;
 	font-size: 15px;
+	text-transform: capitalize;
 }
 .border {
 	color:#eaeaea;
 	border-style: double;
 	border-width: 30px;
+}
+.menu a:hover {
+	color: rgb(231, 145, 94);
+}
+.header {
+	position: relative;
+	z-index: 100;
+	font-size: 20pt;
+	font-weight: bold;
+  }
+.footer {
+	text-align: center;
+}
+.contacts input:focus {
+	background:  rgb(233, 185, 158);
+}
+table {
+	border: 1px solid #000;
+	border-collapse: collapse;
+
+}
+td {
+	border: 1px solid #000;
+	vertical-align: top;
+	text-align: center;
+}
+th {
+	border: 1px solid #000;
+	vertical-align: top;
+	text-align: center;
+	width: 80px;
+height: 30px
+}
+.catalog::first-letter {
+	font-size: 20pt;
+	color:  rgb(121, 7, 121);
+}
+.border:hover{
+	border-color: transparent;
 }

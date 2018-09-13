@@ -8,13 +8,18 @@
 </head>
 
 <body>
-    <h1>Catland</h1>
 
-    <ul class="menu">
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="catalog.html">Наши любимцы (каталог)</a></li>
-        <li><a href="contact.html">Контакты</a></li>
-    </ul>
+    <div class="header">
+        <a href="index.html">
+            <img src="images/logo.png" width="50" height="50" /></a>
+        Catland
+
+        <ul class="menu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Наши любимцы (каталог)</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+        </ul>
+    </div>
 
     <hr />
 
@@ -23,16 +28,16 @@
     <form action="" class="contacts">
         <fieldset>
             <legend>Напишите нам</legend>
-            <input class="info" type="text" size="30" placeholder="Введите ваше имя">
+            <input type="text" size="30" placeholder="Введите ваше имя">
             <br />
-            <input class="info" type="email" size="30" placeholder="Введите наш электронный адрес">
+            <input type="email" size="30" placeholder="Введите наш электронный адрес">
             <br />
-            <input class="info" type="text" size="30" placeholder="Тема сообщения">
+            <input type="text" size="30" placeholder="Тема сообщения">
 
             <br />
             <br />
             <label>Суть вашего письма:</label>
-            <p><textarea class="info" rows="10" cols="45" name="text"></textarea></p>
+            <p><textarea rows="10" cols="45" name="text"></textarea></p>
 
             <br />
             <input type="button" value="Отправить">
@@ -47,10 +52,10 @@
 
     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A10fed7263dea282574b8e0f824c38b5c482ef71a07a76f90f78474e98fa5ea89&amp;width=598&amp;height=489&amp;lang=ru_RU&amp;scroll=true"></script>
 
-    <footer>
+    <div class="footer">
         <hr />
-        <p style="text-align: center;">&copy; Все права защищены </p>
-    </footer>
+        &copy; Все права защищены
+    </div>
 
 </body>
 
